@@ -12,7 +12,6 @@ import org.apache.spark.sql.types._
   * Description 自定义聚合函数
   */
 class GroupSumFunction extends UserDefinedAggregateFunction {
-
   /**
     * 该方法指定具体输入数据的类型
     * @return
